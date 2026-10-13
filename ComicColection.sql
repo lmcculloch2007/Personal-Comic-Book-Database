@@ -2,11 +2,6 @@ create database if not exists ComicColection;
 
 use ComicColection;
 
-
-Drop table if exists ComicCreator;
-Drop table if exists Comicbook;
-Drop table if exists Creator;
-
 create table Comicbook
 (
     ComicBookID varchar(20) PRIMARY KEY,
